@@ -1,0 +1,22 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather app back-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrateekJain14/Weather-App-NODEJS.git"
+  },
+  "author": "Prateek Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrateekJain14/Weather-App-NODEJS/issues"
+  },
+  "homepage": "https://github.com/PrateekJain14/Weather-App-NODEJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
