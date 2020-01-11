@@ -3,7 +3,7 @@ const app = express();
 
 // we’ll be using EJS (Embedded JavaScript). EJS is a templating language.
 app.set('view engine', 'ejs')
-
+app.use(express.static('public'));
 app.get('/',function(req, res){
     // res.send("Hello World !!!");
     res.render('index');
